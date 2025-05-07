@@ -1,0 +1,21 @@
+nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
+    background-color: grey;
+}
+
+nav a {
+
+text-decoration: none;
+color: black;
+padding: 10px 10px;
+background-color: grey;
+}
+
+
+nav a:hover {
+    background-color:purple;
+}
+

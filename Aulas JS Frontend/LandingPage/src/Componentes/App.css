@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.light {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --card-color: #f0f0f0;
+  --nav-color: grey;
+  --nav-hover: purple;
+}
+
+.dark {
+  --bg-color: #121212;
+  --text-color: #ffffff;
+  --card-color: #1e1e1e;
+  --nav-color: #333333;
+  --nav-hover: #5e35b1;
+}
+
+body, .light, .dark {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.card {
+  background-color: var(--card-color);
+  color: var(--text-color);
+}
+
+nav {
+  background-color: var(--nav-color);
+}
+
+nav a {
+  color: var(--text-color);
+  background-color: var(--nav-color);
+}
+
+nav a:hover {
+  background-color: var(--nav-hover);
+}
