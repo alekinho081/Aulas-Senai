@@ -17,6 +17,6 @@ Um lugar organizado para guardar **códigos, exercícios e materiais** das minha
 ### **🔄 Atualizações Recentes**  
 - **Backend:** Criação de API Restful(29/05)  
 - **Frontend:** Projeto com React useContext(07/06)  
-- **Testes:** Automatização com Python(06/06)  
+- **Testes:** Atividades sobre automatização com selenium e python(08/06)  
 
 ---
