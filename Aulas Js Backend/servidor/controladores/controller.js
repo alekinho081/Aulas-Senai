@@ -1,8 +1,8 @@
 const {Usuario, lerDados, salvarDados} = require('../models/model')
 
 const listarUsuarios = (req, res) => {
-    const usuarios = lerDados();
-    res.json(usuarios);
+        const usuarios = lerDados();
+        res.json(usuarios);
 };
 const criarUsuario = (req, res) => {
     const usuarios = lerDados();
